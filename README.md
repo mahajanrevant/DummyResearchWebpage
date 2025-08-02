@@ -1,6 +1,8 @@
-# Nerfies
+# Continuum-Gripper
 
-This is the repository that contains source code for the [Design and analysis of a low-cost gripper with compliant, tendon-driven continuum fingers](TODO).
+This is the repository that contains source code for the [Design and analysis of a low-cost gripper with compliant, tendon-driven continuum fingers](https://avni-2008.github.io/Continuum-Gripper/) project.
+
+This project is about a tendon-driven, spring-backbone-based continuum gripper for adaptive, economical, and robust object manipulation.
 
 This work has been submitted to the MIT URTC for possible publication. Copyright may be transferred without notice, after which this version may no longer be accessible
 
