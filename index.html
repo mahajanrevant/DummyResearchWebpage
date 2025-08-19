@@ -2,287 +2,233 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <meta name="description"
-        content="Design and analysis of a low-cost gripper with compliant, tendon-driven continuum fingers.">
-  <meta name="keywords" content="Soft, Grippers, Tendons, Continuum, Robotics">
+  <meta name="description" content="Avni Mahajan - Personal Website">
+  <meta name="keywords" content="Avni Mahajan, Personal Projects, Social Entrepreneurship, Essays">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Avni Mahajan - Personal Website</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
   
-  <!-- MIT URTC Notice -->
-  <div class="notification is-warning has-text-centered" style="margin-top: 1rem; margin-bottom: 1rem;">
-    <strong>Important Notice:</strong> This work has been submitted to the MIT URTC for possible publication. Copyright may be transferred without notice, after which this version may no longer be accessible.
-  </div>
-  <title>Design and analysis of a low-cost gripper with compliant, tendon-driven continuum fingers</title>
-
-  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
-        rel="stylesheet">
-
+  <!-- Bulma CSS Framework -->
   <link rel="stylesheet" href="./static/css/bulma.min.css">
-  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
-  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
-  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
-  <link rel="stylesheet"
-        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
   <link rel="stylesheet" href="./static/css/index.css">
+  
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  
+  <!-- Favicon -->
   <link rel="icon" href="./static/images/favicon.svg">
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script defer src="./static/js/fontawesome.all.min.js"></script>
-  <script src="./static/js/bulma-carousel.min.js"></script>
-  <script src="./static/js/bulma-slider.min.js"></script>
-  <script src="./static/js/index.js"></script>
 </head>
 <body>
 
-<section class="hero">
+<!-- Navigation Bar -->
+<nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+  <div class="container">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="#home">
+        <strong>Avni Mahajan</strong>
+      </a>
+      
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+    <div class="navbar-menu">
+      <div class="navbar-end">
+        <a class="navbar-item" href="#home">Home</a>
+        <a class="navbar-item" href="#personal-projects">Personal Projects</a>
+        <a class="navbar-item" href="./social-entrepreneurship.html">Social Entrepreneurship</a>
+        <a class="navbar-item" href="./essays.html">Essays</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section with Profile -->
+<section class="hero is-fullheight-with-navbar" id="home">
   <div class="hero-body">
-    <div class="container is-max-desktop">
-      <div class="columns is-centered">
-        <div class="column has-text-centered">
-          <h1 class="title is-1 publication-title">Design and analysis of a low-cost gripper with 
-            compliant, tendon-driven continuum fingers</h1>
-            <div
-          <div class="is-size-5 publication-authors">
-            <span class="author-block">Avni Mahajan</span>
-          </div>
-
-          <div class="is-size-5 publication-authors">
-            <span class="author-block"> Delhi, India</span>
-          </div>
-
-          <div class="column has-text-centered">
-            <div class="publication-links">
-              <!-- PDF Link. -->
-              <span class="link-block">
-                <a href="https://cad.onshape.com/documents/a352b31512ae18d64012a5df/w/0317bcca36452fcf376b6688/e/00dd95b30cd56e62dafb3b34?renderMode=0&uiState=688e2c7da6ede90d661fefce"
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                      <i class="fas fa-cogs"></i>
-                  </span>
-                  <span>CAD</span>
-                </a>
-              </span>
+    <div class="container">
+      <div class="columns is-centered is-vcentered">
+        <div class="column is-4 has-text-centered">
+          <!-- Profile Picture Placeholder -->
+          <div class="profile-image-container" style="margin-bottom: 2rem;">
+            <div class="profile-placeholder" style="width: 250px; height: 250px; background-color: #f0f0f0; border-radius: 50%; margin: 0 auto; display: flex; align-items: center; justify-content: center; border: 3px solid #ddd;">
+              <span style="font-size: 3rem; color: #999;">📷</span>
             </div>
-
+          </div>
+          
+          <!-- Name -->
+          <h1 class="title is-2">Avni Mahajan</h1>
+          <p class="subtitle is-5">Student & Innovator</p>
+        </div>
+        
+        <div class="column is-6">
+          <div class="content">
+            <h2 class="title is-3">Welcome!</h2>
+            <p class="is-size-5">
+              I'm passionate about technology, social impact, and innovation. 
+              This website showcases my projects, entrepreneurial ventures, and thoughts on various topics.
+            </p>
           </div>
         </div>
       </div>
     </div>
   </div>
-
-  <div class="container is-max-desktop">
-
-
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Gripper manipulating objects of different shapes, sizes, weights, textures, and compressability</h2>
-      </div>
-    </div>
-
-    <div class="columns is-centered">
-      <div class="column">
-        <div class="content">
-          <h2 class="title is-4">Eraser</h2>
-          <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/Eraser.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-      </div>
-
-      <div class="column">
-        <h2 class="title is-4">Plastic ball</h2>
-        <div class="columns is-centered">
-          <div class="column content">
-            <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
-              <source src="./static/videos/ball.mp4"
-                      type="video/mp4">
-            </video>
-          </div>
-        </div>
-      </div>
-
-    </div>
-
-    <div class="columns is-centered">
-
-      <div class="column">
-        <h2 class="title is-4">Cardboard Box</h2>
-        <div class="columns is-centered">
-          <div class="column content">
-            <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
-              <source src="./static/videos/Cardboard_box.mp4"
-                      type="video/mp4">
-            </video>
-          </div>
-        </div>
-      </div>
-
-      <div class="column">
-        <h2 class="title is-4">Bottle</h2>
-        <div class="columns is-centered">
-          <div class="column content">
-            <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
-              <source src="./static/videos/Bottle.mp4"
-                      type="video/mp4">
-            </video>
-          </div>
-        </div>
-      </div>
-
-    </div>
-
-    <div class="columns is-centered"> 
-      <div class="column">
-        <div class="content">
-          <h2 class="title is-4">Shuttle cock</h2>
-          <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/Shuttlecock.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-      </div>
-
-      <div class="column">
-        <h2 class="title is-4">Toy car</h2>
-        <div class="columns is-centered">
-          <div class="column content">
-            <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
-              <source src="./static/videos/car.mp4"
-                      type="video/mp4">
-            </video>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="columns is-centered">
-
-      <div class="column">
-        <h2 class="title is-4">Sponge</h2>
-        <div class="columns is-centered">
-          <div class="column content">
-            <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
-              <source src="./static/videos/Sponge.mp4"
-                      type="video/mp4">
-            </video>
-          </div>
-        </div>
-      </div>
-
-      <div class="column">
-        <div class="content">
-          <h2 class="title is-4">Glassbulb</h2>
-          <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/Glassbulb.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-      </div>
-
-    </div>
-
-    <div class="columns is-centered">
-
-      <div class="column">
-        <h2 class="title is-4">Lemon</h2>
-        <div class="columns is-centered">
-          <div class="column content">
-            <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
-              <source src="./static/videos/Lemon.mp4"
-                      type="video/mp4">
-            </video>
-          </div>
-        </div>
-      </div>
-
-      <div class="column">
-        <h2 class="title is-4">Capsicum</h2>
-        <div class="columns is-centered">
-          <div class="column content">
-            <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
-              <source src="./static/videos/Capsicum.mp4"
-                      type="video/mp4">
-            </video>
-          </div>
-        </div>
-      </div>
-
-    </div>
-
-    <div class="columns is-centered">
-
-      <div class="column">
-        <h2 class="title is-4">Holder with additional weight</h2>
-        <div class="columns is-centered">
-          <div class="column content">
-            <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
-              <source src="./static/videos/weight.mp4"
-                      type="video/mp4">
-            </video>
-          </div>
-        </div>
-      </div>
-
-      <div class="column">
-        <div class="content">
-          <h2 class="title is-4">4 cm squared base prism</h2>
-          <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/Prism_4.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-      </div>
-
-    </div>
-
-
-    <div class="columns is-centered">
-    
-      <div class="column">
-        <h2 class="title is-4">8 cm squared base prism</h2>
-        <div class="columns is-centered">
-          <div class="column content">
-            <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
-              <source src="./static/videos/Prism_8.mp4"
-                      type="video/mp4">
-            </video>
-          </div>
-        </div>
-      </div>
-
-      <div class="column">
-        <h2 class="title is-4">12 cm squared base prism</h2>
-        <div class="columns is-centered">
-          <div class="column content">
-            <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
-              <source src="./static/videos/Prism_12.mp4"
-                      type="video/mp4">
-            </video>
-          </div>
-        </div>
-      </div>
-
-    </div>
-
-  </div>
-
 </section>
 
+<!-- Personal Projects Section -->
+<section class="section" id="personal-projects">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <h2 class="title is-2 has-text-centered">Personal Projects</h2>
+        
+        <!-- Project 1 -->
+        <div class="box" style="margin-bottom: 2rem;">
+          <h3 class="title is-4">Low-Cost Gripper with Compliant, Tendon-Driven Continuum Fingers</h3>
+          <p class="subtitle is-6">Robotics & Engineering</p>
+          <div class="content">
+            <p>
+              Design and analysis of a low-cost gripper with compliant, tendon-driven continuum fingers.
+              This work has been submitted to the MIT URTC for possible publication.
+            </p>
+            <div class="buttons">
+              <a href="./gripper-project.html" class="button is-primary">
+                <span class="icon">
+                  <i class="fas fa-cogs"></i>
+                </span>
+                <span>View Project</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Project 2 -->
+        <div class="box" style="margin-bottom: 2rem;">
+          <h3 class="title is-4">Project Title 2</h3>
+          <p class="subtitle is-6">Category</p>
+          <div class="content">
+            <p>Description of your second project goes here.</p>
+            <div class="buttons">
+              <a href="#" class="button is-primary">
+                <span class="icon">
+                  <i class="fas fa-external-link-alt"></i>
+                </span>
+                <span>Learn More</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Social Entrepreneurship Section -->
+<section class="section is-light" id="social-entrepreneurship">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <h2 class="title is-2 has-text-centered">Social Entrepreneurship</h2>
+        
+        <!-- Venture 1 -->
+        <div class="box" style="margin-bottom: 2rem;">
+          <h3 class="title is-4">Venture Name</h3>
+          <p class="subtitle is-6">Social Impact</p>
+          <div class="content">
+            <p>Description of your social entrepreneurship venture and its impact.</p>
+            <div class="buttons">
+              <a href="./social-entrepreneurship.html" class="button is-success">
+                <span class="icon">
+                  <i class="fas fa-heart"></i>
+                </span>
+                <span>Learn More</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Essays Section -->
+<section class="section" id="essays">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <h2 class="title is-2 has-text-centered">Essays & Thoughts</h2>
+        
+        <!-- Essay 1 -->
+        <div class="box" style="margin-bottom: 2rem;">
+          <h3 class="title is-4">Essay Title</h3>
+          <p class="subtitle is-6">Topic Category</p>
+          <div class="content">
+            <p>Brief description or excerpt from your essay.</p>
+            <div class="buttons">
+              <a href="#" class="button is-info">
+                <span class="icon">
+                  <i class="fas fa-book-open"></i>
+                </span>
+                <span>Read Essay</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
 <footer class="footer">
   <div class="container">
     <div class="columns is-centered">
-      <div class="column is-12">
+      <div class="column is-8">
         <div class="content has-text-centered">
           <p>
-           The code for this website is borrowed from <a
-            href="https://github.com/nerfies/nerfies.github.io">NERFIES</a> under a <a rel="license"
-            href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+            <strong>Avni Mahajan</strong> - Personal Website
+          </p>
+          <p>
+            <small>Built with Bulma CSS Framework</small>
           </p>
         </div>
       </div>
     </div>
   </div>
 </footer>
+
+<!-- JavaScript for Navigation -->
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  // Mobile navigation toggle
+  const burger = document.querySelector('.navbar-burger');
+  const menu = document.querySelector('.navbar-menu');
+  
+  burger.addEventListener('click', () => {
+    burger.classList.toggle('is-active');
+    menu.classList.toggle('is-active');
+  });
+  
+  // Smooth scrolling for navigation links
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+      e.preventDefault();
+      const target = document.querySelector(this.getAttribute('href'));
+      if (target) {
+        target.scrollIntoView({
+          behavior: 'smooth',
+          block: 'start'
+        });
+      }
+    });
+  });
+});
+</script>
 
 </body>
 </html>
