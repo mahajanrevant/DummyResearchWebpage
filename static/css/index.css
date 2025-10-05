@@ -155,3 +155,46 @@ body {
 #interpolation-image-wrapper img {
   border-radius: 5px;
 }
+
+/* Decorative polaroid images */
+.polaroid-container {
+  position: absolute;
+  width: 180px;
+  background: white;
+  padding: 10px 10px 40px 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease;
+  z-index: 1;
+}
+
+.polaroid-container:hover {
+  transform: scale(1.05) !important;
+  z-index: 10;
+}
+
+.polaroid-container img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+}
+
+/* Individual polaroid positions and rotations */
+.polaroid-1 { top: 5%; left: 5%; transform: rotate(-8deg); }
+.polaroid-2 { top: 8%; left: 25%; transform: rotate(5deg); }
+.polaroid-3 { top: 12%; right: 8%; transform: rotate(-6deg); }
+.polaroid-4 { bottom: 15%; left: 8%; transform: rotate(7deg); }
+.polaroid-5 { bottom: 20%; left: 28%; transform: rotate(-4deg); }
+.polaroid-6 { bottom: 18%; right: 10%; transform: rotate(8deg); }
+.polaroid-7 { bottom: 25%; right: 30%; transform: rotate(-5deg); }
+
+/* Make hero section relative for absolute positioning */
+.hero {
+  position: relative;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 768px) {
+  .polaroid-container {
+    display: none; /* Hide on mobile for cleaner layout */
+  }
+}
